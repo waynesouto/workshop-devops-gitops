@@ -1,16 +1,16 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - backend/deploy.yml
-  - backend/service.yml
-  - frontend/deploy.yml
-  - frontend/service.yml
+- backend/deploy.yml
+- backend/service.yml
+- frontend/deploy.yml
+- frontend/service.yml
+
 
 images:
-  - name: 221719046810.dkr.ecr.us-east-1.amazonaws.com/workshop-devops/production/backend
-    newName: 221719046810.dkr.ecr.us-east-1.amazonaws.com/workshop-devops/production/backend
-    newTag: v1.0
-
-  - name: 221719046810.dkr.ecr.us-east-1.amazonaws.com/workshop-devops/production/frontend
-    newName: 221719046810.dkr.ecr.us-east-1.amazonaws.com/workshop-devops/production/frontend
-    newTag: v1.0
+- name: 221719046810.dkr.ecr.us-east-1.amazonaws.com/workshop-devops/production/backend
+  newName: 221719046810.dkr.ecr.us-east-1.amazonaws.com/workshop-devops/production/backend
+  newTag: cc1ff67ae237e623fd09ca72430c5a179f14a18e
+- name: 221719046810.dkr.ecr.us-east-1.amazonaws.com/workshop-devops/production/frontend
+  newName: 221719046810.dkr.ecr.us-east-1.amazonaws.com/workshop-devops/production/frontend
+  newTag: v1.0
