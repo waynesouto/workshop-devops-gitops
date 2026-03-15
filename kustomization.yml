@@ -13,4 +13,4 @@ images:
   newTag: f6b128fba49bff305e0968cecca0780562ea6c91
 - name: 221719046810.dkr.ecr.us-east-1.amazonaws.com/workshop-devops/production/frontend
   newName: 221719046810.dkr.ecr.us-east-1.amazonaws.com/workshop-devops/production/frontend
-  newTag: v1.0
+  newTag: f6b128fba49bff305e0968cecca0780562ea6c91
