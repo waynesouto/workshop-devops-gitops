@@ -10,7 +10,7 @@ resources:
 images:
 - name: 221719046810.dkr.ecr.us-east-1.amazonaws.com/workshop-devops/production/backend
   newName: 221719046810.dkr.ecr.us-east-1.amazonaws.com/workshop-devops/production/backend
-  newTag: cc1ff67ae237e623fd09ca72430c5a179f14a18e
+  newTag: 5c142db428c380f9f7426bd4fdcf07f14d6636e5
 - name: 221719046810.dkr.ecr.us-east-1.amazonaws.com/workshop-devops/production/frontend
   newName: 221719046810.dkr.ecr.us-east-1.amazonaws.com/workshop-devops/production/frontend
   newTag: v1.0
